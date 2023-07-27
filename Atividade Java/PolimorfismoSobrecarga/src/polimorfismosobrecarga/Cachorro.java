@@ -1,0 +1,14 @@
+
+package polimorfismosobrecarga;
+
+
+public class Cachorro extends Animal {
+    
+    
+    
+    @Override
+    public void emitirSom() {
+        System.out.println("Au! au! Aula de Dota!");
+    }
+    
+}
